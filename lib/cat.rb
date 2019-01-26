@@ -1,4 +1,3 @@
-require 'pry'
 
 class Cat
   
@@ -8,7 +7,6 @@ class Cat
   def initialize(name, mood = "nervous")
     @name = name
     @mood = mood
-    #binding.pry 
   end 
   
 end
