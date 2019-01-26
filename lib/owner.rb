@@ -1,7 +1,11 @@
 class Owner
   
-  @@owner = []
-  @@count = 0 
+  @@owners = []
+  @@count = 0
+  
+  def initialize(name)
+    @name = name 
+    @@owners << name 
   
   def self.all 
     @@owner 
