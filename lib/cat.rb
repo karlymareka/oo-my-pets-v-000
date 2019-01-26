@@ -9,5 +9,6 @@ class Cat
     @name = name
     @mood = mood
   end 
+  binding.pry 
   
 end
