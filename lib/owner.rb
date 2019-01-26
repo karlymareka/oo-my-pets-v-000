@@ -2,5 +2,10 @@ class Owner
   
   def self.all 
     
-  end 
+  end
+  
+  def self.count
+  
+  end
+  
 end
