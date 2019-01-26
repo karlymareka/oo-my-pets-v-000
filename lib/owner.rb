@@ -1,5 +1,7 @@
 class Owner
   
+  attr_accessor :name 
+  
   @@owners = []
   @@count = 0
   
