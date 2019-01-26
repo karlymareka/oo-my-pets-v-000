@@ -74,7 +74,8 @@ class Owner
         #binding.pry 
         x.mood = "nervous"
       end 
-    end 
+    end
+    @pets = []
   end
   
 end
