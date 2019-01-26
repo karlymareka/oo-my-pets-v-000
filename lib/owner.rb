@@ -75,7 +75,5 @@ class Owner
       end 
     end 
   end
-  hash.each_pair do |key,val|
-  hash[key].each do |x|
   
 end
