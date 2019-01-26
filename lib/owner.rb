@@ -32,5 +32,8 @@ class Owner
     "I am a human."
   end 
 
+  def pets
+    
+  end 
   
 end
