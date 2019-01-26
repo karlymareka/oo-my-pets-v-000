@@ -6,7 +6,7 @@ class Owner
   @@owners = []
   @@count = 0
   
-  def initialize(name)
+  def initialize(name, species )
     @name = name 
     @@owners << self 
     @@count = @@count + 1
