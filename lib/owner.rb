@@ -34,12 +34,14 @@ class Owner
   end 
 
   def pets
+    
+    def initialize
     @pets = Hash[:fishes => [], :dogs => [], :cats => []] 
+    end 
   end
   
   def buy_fish(fish_name)
     @pets[:fishes] << Fish.new(fish_name)
-    self.pets = @pets  
     binding.pry 
   end 
   
