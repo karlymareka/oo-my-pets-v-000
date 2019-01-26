@@ -82,7 +82,6 @@ class Owner
     num_dogs = @pets[:dogs].count
     num_cats = @pets[:cats].count
     "I have #{num_fishes} fish, #{num_dogs} dog(s), and #{num_cats} cat(s)."
-    
   end 
   
 end
