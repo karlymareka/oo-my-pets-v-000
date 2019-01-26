@@ -5,7 +5,7 @@ class Cat
   attr_accessor :name, :mood
   
   def initialize(name, mood = "nervous")
-    @name = name.freeze
+    @name = name
     @mood = mood
     binding.pry 
   end 
