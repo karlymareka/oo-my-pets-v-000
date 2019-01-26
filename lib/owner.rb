@@ -39,7 +39,7 @@ class Owner
   
   def buy_fish(fish_name)
     @pets[:fishes] << Fish.new(fish_name)
-    @pets
+    self.pets 
     binding.pry 
   end 
   
