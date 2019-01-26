@@ -70,8 +70,12 @@ class Owner
   
   def sell_pets
     @pets.each do |species, pet|
-      pet.mood = "nervous"
+      @pets[species].each do 
+        pet.mood = "nervous"
+      end 
     end 
-  end 
+  end
+  hash.each_pair do |key,val|
+  hash[key].each do |x|
   
 end
