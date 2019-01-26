@@ -33,7 +33,7 @@ class Owner
   end 
 
   def pets
-    @pets = 
+    @pets = Hash["fishes" => [], "dogs" => [], "cats" => []] 
   end 
   
 end
