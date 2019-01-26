@@ -78,6 +78,9 @@ class Owner
   end
   
   def list_pets
+    @pets.each do |species|
+      species.count
+    end 
   end 
   
 end
