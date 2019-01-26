@@ -78,10 +78,9 @@ class Owner
   end
   
   def list_pets
-    @pets.each do |species|
-      species.count
-    end
-    "I have fish, dog(s), and cat(s).""
+    fishes = @pets[:fishes].count
+    dogs = @pets[:dogs].count
+    cats = @pets[:cats].count 
   end 
   
 end
