@@ -1,6 +1,6 @@
 class Owner
   
-  @@all = []
-  @@count = []
-  @@count = [] 
+  def self.all 
+    
+  end 
 end
