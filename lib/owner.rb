@@ -34,11 +34,7 @@ class Owner
   end 
 
   def pets
-    
-    def initialize
-      @pets = Hash[:fishes => [], :dogs => [], :cats => []]
-    end
-    @pets 
+    @pets = Hash[:fishes => [], :dogs => [], :cats => []]
   end
   
   def buy_fish(fish_name)
