@@ -34,6 +34,8 @@ class Owner
 
   def pets
     @pets = Hash[:fishes => [], :dogs => [], :cats => []] 
-  end 
+  end
+  
+  def buy_fish(fish_name)
   
 end
