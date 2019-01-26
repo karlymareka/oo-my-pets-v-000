@@ -77,4 +77,7 @@ class Owner
     @pets = []
   end
   
+  def list_pets
+  end 
+  
 end
