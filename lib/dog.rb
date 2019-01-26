@@ -9,6 +9,7 @@ class Dog
   end
   
   def pet_mood(mood)
-    @mood = mood 
+    @mood = mood
+  end 
   
 end
