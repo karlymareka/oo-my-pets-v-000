@@ -11,6 +11,7 @@ class Owner
     @name = name 
     @@owners << self 
     @@count = @@count + 1
+    @pets = Hash[:fishes => [], :dogs => [], :cats => []]
   end 
   
   def self.all 
