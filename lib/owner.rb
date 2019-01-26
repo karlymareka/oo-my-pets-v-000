@@ -81,6 +81,7 @@ class Owner
     fishes = @pets[:fishes].count
     dogs = @pets[:dogs].count
     cats = @pets[:cats].count 
+    
   end 
   
 end
