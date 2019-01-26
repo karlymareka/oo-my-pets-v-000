@@ -51,7 +51,7 @@ class Owner
   end
   
   def walk_dogs
-    Dog.pet_mood("happy")
+    @pets.
   end 
   
 end
