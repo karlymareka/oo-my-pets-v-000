@@ -6,6 +6,7 @@ class Cat
   
   def initialize(name, mood = "nervous")
     @name = name
+    @name.freeze
     @mood = mood
     binding.pry 
   end 
