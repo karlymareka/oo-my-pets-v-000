@@ -2,10 +2,11 @@ require 'pry'
 
 class Cat
   
-  attr_accessor :name, :mood
+  attr_accessor :mood
+  attr_writer :name
   
   def initialize(name, mood = "nervous")
-    @NAME = name
+    @name = name
     @mood = mood
     binding.pry 
   end 
