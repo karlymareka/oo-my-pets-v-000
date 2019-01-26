@@ -26,6 +26,11 @@ class Owner
   
   def species
     @species = "human" 
+  end
+  
+  def say_species
+    
   end 
+
   
 end
