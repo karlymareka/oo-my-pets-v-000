@@ -8,8 +8,4 @@ class Dog
     @mood = mood 
   end
   
-  def pet_mood(mood)
-    @mood = mood
-  end 
-  
 end
